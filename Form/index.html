@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="height: 1000px;">
+    <!-- cara membuat form dengan tag <form></form> dan isiannyha adalah input -->
+    <form action="">
+      Email : <input type="email"/><br/>
+      Username : <input type="text"/><br/>
+      Password : <input type="password"/><br/>
+
+      <h4>WNI :Radio Button</h4>
+      <input type="radio" name="WNI" value="Yes" /><label for="Yes">Yes</label>
+      <br/>
+      <input type="radio" name="WNI" value="No" /><label for="No">No</label>
+      <br/><br>
+      
+            <!-- Untuk membuat checkbox gunakan input yang punya type:checkbox,huruf yang ada di tanda petik harus kecil semua -->
+
+             <!-- input memilki type-nya seperti manusia yang memilki tipe yang berbeda dan fungsinya juga, checkbox,name=id sama,dilabeli,input memiliki value=item yang ada didalam input, -->
+      <h4>Makanan Favorit: (Checkbox)</h4>
+      <input type="checkbox" name="Makanan"  value="bakso"><label for="bakso">Bakso</label>
+      <br>
+      <!-- label-nya itu adalah yang memperlihatkannya yang awalnya invisible jadi visible, 
+       'value' sama 'for' harus sama isinya -->
+      <input type="checkbox" name="Makanan" value="mie"><label for="mie">Mie</label>
+
+      <h4>Dropdown List</h4>
+      <select name="pekerjaan">
+        <option value="kuli">Kuli Bangunan</option>
+        <option value="dosen">Dosen</option>
+        <option value="Guru">Guru Bahasa Inggris</option>
+        <option value="arsitek">Arsitek</option>
+      </select>
+      <select name="pekerjaan">
+        <option>-- Pilih Kategori--</option>
+        <option>Lecturer</option>
+        <option>Web Developer</option>
+        <option>Youtuber</option>
+        <option>Fotografer</option>
+        <option>Koki</option>
+        <option>Costumer Service</option>
+        <option>Web Design</option>
+        <option>Kameramen</option>
+        <option>Pengusaha</option>
+        <option>Dokter</option>
+        <option>Petani</option>
+        <option>Gamer</option>
+        <option>Perawat</option>
+        <option>Tukang Cuci Mobil</option>
+        <option>Tukang</option>
+        <option>Supir</option>
+        <option>Service</option>
+        <option>Editor</option>
+        <option>Asisten</option>
+        <option>Peternak</option>
+        <option>Desaigner Jahit</option>
+      </select>
+        <br>
+      <h4>Upload File</h4>
+      <input type="file" name="foto" value="upload-foto">
+        <br><br>
+        <input type="button" name="submit" value="submit">
+    </form>
+  </body>
+</html>
